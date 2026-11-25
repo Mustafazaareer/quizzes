@@ -1,0 +1,28 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+.allQuizzesButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.leftArrow {
+  width: 20px;
+  height: 20px;
+}
+
+.buttonText {
+  color: #18241a;
+  font-size: 0.875rem;
+}
+
+.steps {
+  display: flex;
+  gap: 35px;
+}

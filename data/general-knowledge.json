@@ -1,0 +1,90 @@
+{
+  "duration": 10,
+  "topic": "General Knowledge",
+  "about": "A varied quiz covering science, geography, history, and everyday facts.",
+  "name": "General Knowledge Quiz",
+  "img": " ",
+  "icon": "general-knowledge.png",
+  "questions": [
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correctOption": 3,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Ag", "Gd", "Au", "Go"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "How many continents are commonly recognized on Earth?",
+      "options": ["Five", "Six", "Seven", "Eight"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which organ pumps blood through the human body?",
+      "options": ["Lungs", "Brain", "Liver", "Heart"],
+      "correctOption": 3,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What is the process by which plants make food using sunlight?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Fermentation",
+        "Transpiration"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "In which country are the Pyramids of Giza located?",
+      "options": ["Mexico", "Egypt", "Greece", "India"],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is the hardest naturally occurring mineral?",
+      "options": ["Quartz", "Iron", "Diamond", "Granite"],
+      "correctOption": 2,
+      "points": 30,
+      "answer": null
+    },
+    {
+      "question": "Which gas makes up most of Earth's atmosphere?",
+      "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"],
+      "correctOption": 3,
+      "points": 30,
+      "answer": null
+    }
+  ]
+}

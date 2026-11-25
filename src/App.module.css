@@ -1,0 +1,13 @@
+.mainContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7f9f5;
+}
+.pages {
+  width: 77%;
+}

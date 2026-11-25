@@ -1,0 +1,100 @@
+{
+  "duration": 10,
+  "topic": "Computer Networks",
+  "about": "Check your understanding of networking concepts, IP addressing, devices, and common protocols.",
+  "name": "Computer Networking Quiz",
+  "img": " ",
+  "icon": "network.png",
+  "questions": [
+    {
+      "question": "What does LAN stand for?",
+      "options": [
+        "Large Access Network",
+        "Local Area Network",
+        "Long Area Node",
+        "Linked Application Network"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which device forwards packets between different networks?",
+      "options": ["Switch", "Hub", "Router", "Repeater"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "How many layers are in the OSI model?",
+      "options": ["4", "5", "6", "7"],
+      "correctOption": 3,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which OSI layer is responsible for routing?",
+      "options": ["Physical", "Data Link", "Network", "Application"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is the default port for HTTPS?",
+      "options": ["21", "80", "443", "8080"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What does DHCP typically provide to clients?",
+      "options": [
+        "Automatic IP configuration",
+        "Domain name registration",
+        "File compression",
+        "Email encryption"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which protocol translates domain names into IP addresses?",
+      "options": ["FTP", "DNS", "SMTP", "SSH"],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which address is used to identify a network interface at the data-link layer?",
+      "options": ["IP address", "MAC address", "URL", "Port number"],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is the main purpose of a subnet mask?",
+      "options": [
+        "To identify the network and host portions of an IP address",
+        "To encrypt network traffic",
+        "To assign MAC addresses",
+        "To measure internet speed"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "answer": null
+    },
+    {
+      "question": "Which private IPv4 range includes addresses beginning with 192.168?",
+      "options": [
+        "Class A private range",
+        "Class B private range",
+        "Class C private range",
+        "Public address range"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "answer": null
+    }
+  ]
+}

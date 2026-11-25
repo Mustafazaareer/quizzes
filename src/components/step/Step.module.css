@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 11px;
+  background-color: #edf0e9;
+  border-color: #dfe5db;
+  color: #626b60;
+  text-transform: capitalize;
+}
+
+.step {
+  color: #626b60;
+  text-transform: capitalize;
+}
+
+.visited {
+  background-color: #b9edbc;
+}
+
+.atThisPage {
+  color: black;
+}

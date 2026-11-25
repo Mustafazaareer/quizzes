@@ -1,0 +1,90 @@
+{
+  "duration": 10,
+  "topic": "Web Development",
+  "about": "Test your knowledge of HTML structure, CSS styling, and responsive web design.",
+  "name": "HTML & CSS Quiz",
+  "img": " ",
+  "icon": "html-css.png",
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "Hyper Transfer Main Language",
+        "Home Tool Markup Language"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which HTML element is used for the largest heading?",
+      "options": ["<heading>", "<h6>", "<h1>", "<head>"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which attribute specifies an image's alternative text?",
+      "options": ["title", "src", "alt", "href"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which CSS property changes the text color?",
+      "options": ["font-color", "text-color", "color", "foreground"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which CSS selector targets an element with id=\"header\"?",
+      "options": [".header", "#header", "header", ".#header"],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which property creates space inside an element's border?",
+      "options": ["margin", "padding", "outline", "gap"],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which CSS layout system is designed for rows and columns?",
+      "options": ["Float", "Position", "CSS Grid", "Text flow"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What does `display: flex` enable?",
+      "options": [
+        "A flexible one-dimensional layout",
+        "A database connection",
+        "Image compression",
+        "Automatic HTML validation"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which unit is relative to the viewport width?",
+      "options": ["px", "pt", "vw", "cm"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which rule is commonly used to apply styles at different screen widths?",
+      "options": ["@keyframes", "@media", "@import", "@supports-font"],
+      "correctOption": 1,
+      "points": 30,
+      "answer": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.mainContainer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.status {
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionOfQuestions {
+  color: #18241a;
+  font-size: 14px;
+}
+.answereds {
+  color: #626b60;
+  font-size: 14px;
+}
+
+progress {
+  width: 100%;
+  height: 6px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Background */
+progress::-webkit-progress-bar {
+  background-color: #e5e7eb;
+  border-radius: 10px;
+}
+
+/* Filled part */
+progress::-webkit-progress-value {
+  background-color: #84a578;
+  border-radius: 10px;
+}

@@ -1,0 +1,100 @@
+{
+  "duration": 10,
+  "topic": "Programming",
+  "about": "Measure your understanding of JavaScript fundamentals, functions, arrays, and asynchronous code.",
+  "name": "JavaScript Quiz",
+  "img": " ",
+  "icon": "javascript.png",
+  "questions": [
+    {
+      "question": "Which keyword declares a block-scoped variable that can be reassigned?",
+      "options": ["const", "let", "static", "define"],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which operator checks both value and type equality?",
+      "options": ["==", "=", "===", "!="],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which array method creates a new array by transforming each element?",
+      "options": ["filter()", "map()", "find()", "push()"],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What does `typeof null` return in JavaScript?",
+      "options": ["null", "undefined", "object", "boolean"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which method converts a JSON string into a JavaScript value?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.convert()",
+        "JSON.decode()"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What is a closure?",
+      "options": [
+        "A function bundled with access to its lexical scope",
+        "A way to close the browser",
+        "A loop that never ends",
+        "A class without methods"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "answer": null
+    },
+    {
+      "question": "What does `Array.prototype.filter()` return?",
+      "options": [
+        "The first matching element",
+        "A new array containing elements that pass a test",
+        "The original array sorted",
+        "A number of matching elements"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which object is commonly used to handle asynchronous results with `.then()`?",
+      "options": ["Map", "Promise", "Symbol", "RegExp"],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What does the `async` keyword make a function return?",
+      "options": ["An array", "A callback", "A Promise", "A generator"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is the purpose of `event.preventDefault()`?",
+      "options": [
+        "Stops event propagation",
+        "Prevents the browser's default action for the event",
+        "Removes the event listener",
+        "Reloads the page"
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "answer": null
+    }
+  ]
+}

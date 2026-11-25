@@ -1,0 +1,33 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 8px;
+  padding: 24px;
+  align-items: first baseline;
+  width: 280px;
+  height: 105px;
+  justify-content: space-between;
+}
+.wrong {
+  background-color: #ffc171;
+}
+.correct {
+  background-color: #b9edbc;
+}
+
+.answers {
+  font-size: 36px;
+  font-weight: 500;
+  color: #18241a;
+}
+
+.message {
+  font-size: 14px;
+  font-weight: 500;
+  color: #18241a;
+}
+.symbol {
+  width: 20px;
+  height: 20px;
+}

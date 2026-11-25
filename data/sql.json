@@ -1,0 +1,105 @@
+{
+  "duration": 10,
+  "topic": "Databases",
+  "about": "Evaluate your knowledge of relational databases, SQL queries, keys, and data relationships.",
+  "name": "SQL & Databases Quiz",
+  "img": " ",
+  "icon": "database.png",
+  "questions": [
+    {
+      "question": "What does SQL stand for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Question Language",
+        "System Query Logic",
+        "Sequential Query List"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which SQL statement retrieves data from a table?",
+      "options": ["GET", "OPEN", "SELECT", "FETCH TABLE"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which clause filters rows based on a condition?",
+      "options": ["ORDER BY", "WHERE", "GROUP BY", "JOIN"],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What is a primary key?",
+      "options": [
+        "A column that uniquely identifies each row",
+        "A key used only for sorting",
+        "A duplicate value in a table",
+        "A password for the database"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is a foreign key used for?",
+      "options": [
+        "Encrypting a table",
+        "Linking rows between related tables",
+        "Sorting records",
+        "Creating database backups"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which SQL command adds a new row to a table?",
+      "options": ["UPDATE", "ALTER", "INSERT", "CREATE"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which JOIN returns only rows with matching values in both tables?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN", "INNER JOIN"],
+      "correctOption": 3,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which aggregate function counts rows?",
+      "options": ["SUM()", "COUNT()", "TOTAL()", "NUMBER()"],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is database normalization intended to reduce?",
+      "options": [
+        "Data redundancy and update anomalies",
+        "Query language features",
+        "The number of users",
+        "The need for primary keys"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "answer": null
+    },
+    {
+      "question": "Which command removes all rows from a table while keeping the table structure?",
+      "options": [
+        "DROP TABLE",
+        "DELETE DATABASE",
+        "TRUNCATE TABLE",
+        "REMOVE TABLE"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "answer": null
+    }
+  ]
+}

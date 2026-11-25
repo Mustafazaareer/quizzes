@@ -1,0 +1,91 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  height: fit-content;
+}
+
+.quistionSection {
+  display: flex;
+  align-items: first baseline;
+  width: 672px;
+  height: fit-content;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.category {
+  color: #626b60;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.quizName {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  font-size: 1.875rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.btns {
+  width: 672px;
+  display: flex;
+  justify-content: space-between;
+  border-top: #dfe5db 1px solid;
+  margin-top: 32px;
+  padding-top: 24px;
+  margin-left: 0;
+}
+.nextButton {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  border-style: none;
+  border-radius: 8px;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #18241a;
+  text-transform: capitalize;
+}
+
+.nextButtonDisabled {
+  background: none;
+  color: #b2b4b0;
+}
+.nextButtonEnabled {
+  background-color: #31de5c;
+}
+
+.rightArrowIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.previousButton {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  border-style: none;
+  border-radius: 8px;
+  justify-content: center;
+  background: none;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.leftArrowIcon {
+  width: 20px;
+  height: 20px;
+}

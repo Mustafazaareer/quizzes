@@ -1,0 +1,66 @@
+.mainContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  border-bottom: 1px solid #dfe5db;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+.leftSection {
+  margin-left: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightSection {
+  margin-right: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookIcon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b9edbc;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+.title {
+  margin-right: 1.5rem;
+}
+
+.quote {
+  border-left: 1px solid #626b60;
+  padding-left: 1.5rem;
+  color: #626b60;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 13px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.rightSection:hover {
+  background-color: #ffc171;
+  cursor: pointer;
+}
+.menuIcon {
+  width: 15px;
+  height: 15px;
+}
+.allQuizzes {
+  color: black;
+}

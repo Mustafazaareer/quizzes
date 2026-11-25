@@ -1,0 +1,37 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f9f5;
+  min-height: 80vh;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin-top: 3rem;
+  width: 100%;
+}
+.pickChallengeText {
+  color: #626b60;
+  font-size: 11px;
+  font-weight: 600;
+}
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #626b60;
+}
+
+.quizzes {
+  margin-top: 35px;
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  justify-content: start;
+  gap: 20px;
+}

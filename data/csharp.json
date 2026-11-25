@@ -1,0 +1,105 @@
+{
+  "duration": 10,
+  "topic": "Programming",
+  "about": "Test your knowledge of C# syntax, object-oriented programming, and the .NET platform.",
+  "name": "C# & .NET Quiz",
+  "img": " ",
+  "icon": "csharp.png",
+  "questions": [
+    {
+      "question": "Which keyword is used to define a class in C#?",
+      "options": ["struct", "class", "object", "new"],
+      "correctOption": 1,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which type represents a true or false value?",
+      "options": ["int", "string", "bool", "char"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "Which keyword creates an instance of a class?",
+      "options": ["make", "create", "new", "this"],
+      "correctOption": 2,
+      "points": 10,
+      "answer": null
+    },
+    {
+      "question": "What is the purpose of a constructor?",
+      "options": [
+        "To initialize a new object",
+        "To destroy an object",
+        "To define an interface",
+        "To catch exceptions"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which access modifier makes a member accessible only within its containing type?",
+      "options": ["public", "protected", "internal", "private"],
+      "correctOption": 3,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "Which OOP concept allows a class to inherit members from another class?",
+      "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What does `async` commonly indicate in a C# method?",
+      "options": [
+        "The method runs only on the UI thread",
+        "The method can use await for asynchronous operations",
+        "The method cannot return a value",
+        "The method is automatically public"
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "answer": null
+    },
+    {
+      "question": "Which keyword is used to implement an interface on a class?",
+      "options": ["implements", "extends", ":", "interface"],
+      "correctOption": 2,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What is Entity Framework Core primarily used for?",
+      "options": [
+        "Building user interfaces",
+        "Object-relational mapping and database access",
+        "Managing operating system processes",
+        "Creating CSS styles"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "answer": null
+    },
+    {
+      "question": "What does dependency injection help achieve?",
+      "options": [
+        "Tight coupling between classes",
+        "Creating dependencies inside every class",
+        "Providing dependencies from outside a class",
+        "Removing the need for interfaces"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "answer": null
+    }
+  ]
+}
