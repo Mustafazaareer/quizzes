@@ -68,7 +68,7 @@ function QuizQuestionPage() {
                 className={styles.nextButton}
                 to={"/result"}
                 onClick={
-                  answerIndex >= 0
+                  answerIndex || answerIndex === 0
                     ? () =>
                         dispatch({ type: "finishQuiz", payload: answerIndex })
                     : null
@@ -79,20 +79,20 @@ function QuizQuestionPage() {
             ) : (
               <button
                 className={`${styles.nextButton} ${
-                  answerIndex
+                  answerIndex || answerIndex === 0
                     ? styles.nextButtonEnabled
                     : styles.nextButtonDisabled
                 }`}
                 onClick={
-                  answerIndex >= 0
+                  answerIndex || answerIndex === 0
                     ? () =>
                         dispatch({ type: "nextQuestion", payload: answerIndex })
                     : null
                 }
-                disabled={answerIndex ? false : true}
+                disabled={answerIndex || answerIndex === 0 ? false : true}
               >
                 <span className={styles.nextButtonText}>Next Question</span>
-                {answerIndex ? (
+                {answerIndex || answerIndex === 0 ? (
                   <img
                     className={styles.rightArrowIcon}
                     src="arrow-right.svg"

@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { QuizContext } from "../../App";
 import NoQuizSelected from "../../components/noQuizSelected/NoQuizSelected";
+import { getRandomColor } from "../../../utils/createColor";
 
 function StartQuizPage() {
   const { state, dispatch } = useContext(QuizContext);
@@ -19,7 +20,10 @@ function StartQuizPage() {
       <Levels currentStep={2} />
       {state.quiz ? (
         <div className={styles.quizDetails}>
-          <div className={styles.quizIconContainer}>
+          <div
+            className={styles.quizIconContainer}
+            style={state.quiz.color ? state.quiz.color : getRandomColor()}
+          >
             <img src="atom.png" className={styles.icon} />
           </div>
           <p className={styles.category}>{state.quiz.topic}</p>

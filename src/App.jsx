@@ -26,6 +26,7 @@ const initialState = {
   points: 0,
   highscore: 0,
   secondsRemaining: null,
+  color: "#fff",
 };
 
 function reduce(state, action) {

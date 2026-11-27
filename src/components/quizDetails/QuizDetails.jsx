@@ -2,12 +2,18 @@ import { NavLink } from "react-router-dom";
 import styles from "./QuizDetails.module.css";
 import { useContext } from "react";
 import { QuizContext } from "../../App";
+import { getRandomColor } from "../../../utils/createColor";
 
 function QuizDetails({ quiz, index }) {
+  const color = {
+    backgroundColor: getRandomColor(),
+  };
+  quiz.color = color;
+  console.log(quiz, quiz.color);
   const { dispatch } = useContext(QuizContext);
   return (
     <div className={styles.mainContainer}>
-      <div className={styles.quizImg}>
+      <div className={styles.quizImg} style={color}>
         <img className={styles.quizIcon} src="atom.png" alt="" />
       </div>
       <div className={styles.quizDetails}>
