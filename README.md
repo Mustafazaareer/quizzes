@@ -4,7 +4,7 @@ A simple and interactive quiz application built with React. This project was cre
 
 ## Live Demo
 
-[Try the Quiz Application]()
+[Try the Quiz Application](https://quizzes-ozbx.netlify.app/?_nf_embed=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX2lkIjoiM2U2ZWI4NjgtZjg0NC00MWFmLWI0MmItMGM2MGM0NTMxMDAwIiwicHVycG9zZSI6ImVtYmVkIiwicGFyZW50IjoiaHR0cHM6Ly9hcHAubmV0bGlmeS5jb20iLCJpYXQiOjE3OTU3ODM1MTYsImV4cCI6MTc5NTc4MzgxNn0.-iMsvn4HjC_jSXTIrthWwZqlaBNv_qqjFRnibpWA-iQ)
 
 ## Features
 
